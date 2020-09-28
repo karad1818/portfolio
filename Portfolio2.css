@@ -116,7 +116,7 @@ nav a{
 .my_img{
 	width:100%;
 	height:100%;
-	background-image: url("my1.jpg");
+	background-image: url("Images/my1.jpg");
 	background-size: 100% 100%;
 }
 
@@ -321,13 +321,13 @@ p:hover #se{
 	text-align: center;
 }
 .rcard_1 .parent .over_image{
-	background-image: url('cchef.jpg');
+	background-image: url('Images/cchef.jpg');
 }
 .rcard_2 .parent .over_image{
-	background-image: url('cforce.jpg');
+	background-image: url('Images/cforce.jpg');
 }
 .rcard_3 .parent .over_image{
-	background-image: url('l.png');
+	background-image: url('Images/l.png');
 }
 .over_image{
 	background-position: center;
