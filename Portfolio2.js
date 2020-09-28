@@ -8,7 +8,7 @@ toggle.addEventListener("click",function(){
 /*   home card */
 let my_img = document.querySelector(".my_img");
 my_img.addEventListener("mouseout",function(){
-	my_img.style.backgroundImage='url("my1.jpg")';
+	my_img.style.backgroundImage='url("Images/My1.jpg")';
 	my_img.style.cursor="auto";
 });
 let link = document.querySelector(".c1");
