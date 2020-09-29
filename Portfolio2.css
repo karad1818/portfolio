@@ -60,12 +60,16 @@ nav a{
 /*media Query */
 @media all and (max-width: 900px){
 	nav,.menu{
+		opacity: 0.9;
 		flex-direction: column;
 	}
 	.menu{
-		line-height: 35px;
+		line-height: 40px;
 		display: none;
 		margin-left: 0;
+	}
+	.menu .item a{
+		font-size: 1.5rem;
 	}
 	.toggle{
 		top:20px;
@@ -175,6 +179,15 @@ nav a{
 	.card_about .about_my_self{
 		width:70%;
 		padding-top: 30px;
+	}
+	.card_about .about_my_self h1{
+		font-size: 2rem;
+	}
+	.card_about .about_my_self h4{
+		font-size: 1rem;
+	}
+	.card_about .about_my_self h4 span{
+		font-size: 1rem;
 	}
 }
 /*home end*/
