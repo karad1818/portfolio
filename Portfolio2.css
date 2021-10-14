@@ -452,11 +452,15 @@ p:hover #se{
 }
 .front,.back{
 	border-radius: 10px;
-	width:300px;
-	height:200px;
+	width:305px;
+	height:205px;
 	position: absolute;
 	-webkit-backface-visibility: hidden; /*for safari*/
   	backface-visibility: hidden;
+}
+.front{
+	border: #1b262c;
+	border-style: solid;
 }
 .back{
 	background-color: var(--brand-color);
